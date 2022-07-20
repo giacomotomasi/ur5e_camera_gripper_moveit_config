@@ -50,7 +50,7 @@ Visualization Manager:
       MoveIt_Planning_Attempts: 10
       MoveIt_Planning_Time: 5
       MoveIt_Use_Cartesian_Path: false
-      MoveIt_Use_Constraint_Aware_IK: false
+      MoveIt_Use_Constraint_Aware_IK: true
       MoveIt_Workspace:
         Center:
           X: 0
@@ -314,4 +314,4 @@ Window Geometry:
     collapsed: false
   Width: 1291
   X: 97
-  Y: 47
+  Y: 27
