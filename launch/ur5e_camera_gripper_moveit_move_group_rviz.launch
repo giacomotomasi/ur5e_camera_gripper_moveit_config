@@ -1,0 +1,10 @@
+<launch>
+  <arg name="debug" default="false" />
+
+  <!-- Launch moveit -->
+  <include file="$(find ur5e_camera_gripper_moveit_config)/launch/move_group.launch">
+    <arg name="debug" default="$(arg debug)" />
+  </include>
+
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find ur5e_camera_gripper_moveit_config)/rviz/camera_gripper.rviz" />
+</launch>
